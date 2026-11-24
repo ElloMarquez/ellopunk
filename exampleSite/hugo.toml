@@ -93,15 +93,6 @@ enableGitInfo = true
   src = "/img/hexagon.jpg"
   desc = "Hexagon"
 
-# For AI search summary limits, see [Params.seo] in the SEO & i18n docs.
-
-[Params.author]
-  name = "Ell Marquez"
-  website = ellopunk.com"
-  email = "redacted"
-  github = "halogenica/beautifulhugo"
-  twitter = "ell_o_punk"
-  linkedin = "in/ellmarquez" 
 
 # Any platform the built-in registry does not cover. "icon" is a CSS class,
 # so a site can also load its own icon font from head_custom.html.
@@ -157,8 +148,8 @@ enableGitInfo = true
     inline = [['\(', '\)']]
 
 [[menu.main]]
-    name = "About"
-    url = "page/about/"
+    identifier = "About"
+    name = "about"
     weight = 1
 
 [[menu.main]]
