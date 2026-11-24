@@ -56,7 +56,7 @@ enableGitInfo = true
 #     includes = ["**"]
 
 [Params]
-  subtitle = "Build a beautiful and simple website in minutes"
+  subtitle = "Testing where this changes code"
   mainSections = ["post", "recipe"]
   logo = "/img/avatar-icon.png" # Expecting square dimensions
   favicon = "/img/favicon.ico"
