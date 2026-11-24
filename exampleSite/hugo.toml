@@ -1,7 +1,7 @@
 # This gets overridden when building for production
 baseurl = "http://localhost:1313/"
 DefaultContentLanguage = "en"
-title = "Beautiful Hugo"
+title = "Ellopunk's Website"
 enableGitInfo = true
 
 [[module.imports]]
