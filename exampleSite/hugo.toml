@@ -56,7 +56,7 @@ enableGitInfo = true
 #     includes = ["**"]
 
 [Params]
-  subtitle = "Testing where this changes code"
+  subtitle = "This is what happens when you lose your code."
   mainSections = ["post", "recipe"]
   logo = "/img/avatar-icon.png" # Expecting square dimensions
   favicon = "/img/favicon.ico"
@@ -96,12 +96,12 @@ enableGitInfo = true
 # For AI search summary limits, see [Params.seo] in the SEO & i18n docs.
 
 [Params.author]
-  name = "Some Person"
-  website = "yourwebsite.com"
-  email = "youremail@domain.com"
+  name = "Ell Marquez"
+  website = ellopunk.com"
+  email = "redacted"
   github = "halogenica/beautifulhugo"
-  twitter = "username"
-  linkedin = "in/username" # company/username
+  twitter = "ell_o_punk"
+  linkedin = "in/ellmarquez" 
 
 # Any platform the built-in registry does not cover. "icon" is a CSS class,
 # so a site can also load its own icon font from head_custom.html.
@@ -157,114 +157,30 @@ enableGitInfo = true
     inline = [['\(', '\)']]
 
 [[menu.main]]
-    identifier = "setup"
-    name = "Setup"
-    weight = 1
-
-[[menu.main]]
-    parent = "setup"
-    name = "Configuration"
-    url = "page/configuration/"
-    weight = 1
-
-[[menu.main]]
-    parent = "setup"
-    name = "Pages & Layouts"
-    url = "page/pages-and-layouts/"
-    weight = 2
-
-[[menu.main]]
-    parent = "setup"
-    name = "Theming"
-    url = "page/theming/"
-    weight = 3
-
-[[menu.main]]
-    parent = "setup"
-    name = "SEO & i18n"
-    url = "page/seo-and-i18n/"
-    weight = 4
-
-[[menu.main]]
-    parent = "setup"
-    name = "Comments & Social"
-    url = "page/comments-and-social/"
-    weight = 5
-
-[[menu.main]]
-    identifier = "features"
-    name = "Features"
-    weight = 2
-
-[[menu.main]]
-    parent = "features"
-    name = "Shortcodes"
-    url = "page/shortcodes/"
-    weight = 1
-
-[[menu.main]]
-    parent = "features"
-    name = "Code Blocks"
-    url = "page/code-blocks/"
-    weight = 2
-
-[[menu.main]]
-    parent = "features"
-    name = "Markdown Extensions"
-    url = "page/markdown-extensions/"
-    weight = 3
-
-[[menu.main]]
-    parent = "features"
-    name = "Figures & Galleries"
-    url = "page/figures-and-galleries/"
-    weight = 4
-
-[[menu.main]]
-    parent = "features"
-    name = "Math & Diagrams"
-    url = "page/math-and-diagrams/"
-    weight = 5
-
-[[menu.main]]
-    parent = "features"
-    name = "Publications"
-    url = "publication/"
-    weight = 6
-
-[[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    weight = 3
-
-[[menu.main]]
-    parent = "blog"
-    name = "Posts"
-    url = "post/"
-    weight = 1
-
-[[menu.main]]
-    parent = "blog"
-    name = "Tags"
-    url = "tags/"
-    weight = 2
-
-[[menu.main]]
-    parent = "blog"
-    name = "Categories"
-    url = "categories/"
-    weight = 3
-
-[[menu.main]]
-    parent = "blog"
-    name = "Archives"
-    url = "archives/"
-    weight = 4
-
-[[menu.main]]
     name = "About"
     url = "page/about/"
+    weight = 1
+
+[[menu.main]]
+    identifier = "Blog"
+    name = "Blog"
+    weight = 2
+
+    
+[[menu.main]]
+    identifier = "Docs"
+    name = "Docs"
+    weight = 3
+
+
+[[menu.main]]
+    identifier = "Podcast"
+    name = "Podcast"
     weight = 4
+
+
+
+
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
